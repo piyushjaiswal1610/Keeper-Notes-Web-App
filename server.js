@@ -5,7 +5,6 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 
-dotenv.config();
 
 import getNotes from "./routeFunctions/getNotes.js";
 import addNotes from "./routeFunctions/addNotes.js";
