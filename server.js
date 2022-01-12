@@ -30,7 +30,7 @@ mongoose.connect(url,
 { useNewUrlParser: true, useUnifiedTopology: true }, err => {
     console.log('connected')
 });
-
+app.get("/",<h1>This is the problem</h1>)
 app.post("/getNotes", verify, getNotes);
 app.patch("/addNotes", verify, addNotes);
 app.patch("/deleteNotes", verify, deleteNotes);
