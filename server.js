@@ -38,7 +38,9 @@ app.post("/signup", signup);
 app.post("/login", login);
 
 
+const port = 6000;
+
 app.listen(process.env.PORT||port,  ()=> {
-    console.log(`>> Server started successfully.`);
+    console.log(`>> Server started successfully.` + process.env.PORT || port);
   });
   
