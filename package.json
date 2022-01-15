@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/piyush-jaiswal-projects/Keeper-Notes-Web-App#readme",
   "dependencies": {
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.8",
     "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "concurrently": "^7.0.0",
