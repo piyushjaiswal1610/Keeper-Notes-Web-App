@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/piyush-jaiswal-projects/Keeper-Notes-Web-App#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "concurrently": "^7.0.0",
     "cookie-parser": "^1.4.6",
@@ -34,6 +35,8 @@
     "mongoose": "^6.1.6",
     "nodemon": "^2.0.15",
     "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0"
   }
 }
