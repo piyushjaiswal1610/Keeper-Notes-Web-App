@@ -22,11 +22,8 @@ function signup(req, res){
             });
             
             newUser.save(function (errors) {   //saving user data to database
-                if(!errors){
-                    
-                }
-                else{
-                    
+                if(errors){
+                    consle.log(errors);
                 }
                 if (!errors) {
                     message="Registration Successful. Please click login.";
