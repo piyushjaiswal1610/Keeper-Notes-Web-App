@@ -40,7 +40,7 @@ app.post("/login", login);
 
 const port = 6000;
 
-app.listen(port,  ()=> {
+app.listen(process.env.PORT || port,  ()=> {
     console.log(`>> Server started successfully.` + process.env.PORT || port);
   });
   
