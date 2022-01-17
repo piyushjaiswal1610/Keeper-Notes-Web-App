@@ -85,6 +85,7 @@ function refresh(req, res){
     res.status(200).send(jsonContent);
     console.log(">> New Access Token Issued. User can continue accessing protected content.");
     console.log(">> New Access Token : " + newToken);
+    return newToken;
 }
 
 export default issueTokens;

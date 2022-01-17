@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import AddNote from "./AddNote";
 import Note from "./Note";
 import axios from "axios";
@@ -84,7 +83,6 @@ function App(){
             />
           ))}
           
-        <Footer />
         </div>
     );
 }

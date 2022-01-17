@@ -18,7 +18,8 @@ function verify(req, res, next) {
     catch (e) {
         console.log(e);  //catching error and its type
         if (e.name == "TokenExpiredError") {
-            refresh(req, res);                  // function to re-issue access token
+            const newAssignedToken = refresh(req, res); 
+            req.body.accessToken = newAssignedToken;                 // function to re-issue access token
         }
     }
 }
