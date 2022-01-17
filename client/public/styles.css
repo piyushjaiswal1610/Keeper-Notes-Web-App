@@ -1,3 +1,5 @@
+
+@media (min-width: 426px) {
 * {
   padding: 0;
   margin: 0;
@@ -131,7 +133,7 @@ body {
   background: #fff;
   border-radius: 7px;
   margin: 2rem auto 2rem auto;
-  width: 20%;
+  width: 25%;
   padding: 0.5rem;
 }
 
@@ -168,4 +170,189 @@ body {
 .label-status{
   text-align: center;
   margin: 0.2rem auto 0.2rem auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    background-image: url("https://transparenttextures.com/patterns/cubes.png");
+    padding: 0 16px;
+  }
+  
+  .header-bar {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .header-text {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    text-decoration: none;
+    border-style: hidden;
+  }
+  
+  .footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 98%;
+    height: 2.5rem;
+  }
+  
+  .footer-para {
+    color: #ccc;
+  }
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note-heading {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note-para {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .add-notes-box{
+    margin: 1em auto 2em auto;
+    padding: 1em;
+    padding-top: 0em;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 40%;
+  }
+  .note-input, .title-input{
+    margin-top: 0;
+    border-style: hidden;
+    font-family: "McLaren", cursive;
+    font-size: 1em;
+    outline: none;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .note-input{
+    resize: none;
+  }
+  
+  .title-input{
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+  
+  .add-note-button{
+    background: #f5ba13;
+    color: #fff;
+    border-radius: 50%;
+    height: 10%;
+    width: 2%;
+    padding: 2em;
+    border-style: hidden;
+    float: right;
+    align-items: center;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  
+  .delete-note-btn{
+    background-color: white;
+    color: #f5ba13;
+    border-style: hidden;
+    float: right;  
+  }
+  
+  .btnText{
+    position: relative;
+    color: white;
+    /* bottom: 0.4em;
+    right: 0.4em; */
+  }
+  
+  .log-out-button{
+    border-style: hidden;
+    float: right;
+    background-color: #f5ba13;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    bottom: 1.5rem;
+    right: 2rem;
+  }
+  
+  .login-signup-box{
+    background: #fff;
+    border-radius: 7px;
+    margin: 2rem auto 2rem auto;
+    width: 70%;
+    padding: 0.5rem;
+  }
+  
+  
+  .login-page-label{
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+  }
+  
+  .login-input{
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .inputArea{
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+  }
+  
+  .activate-signup-btn{
+    border-style: none;
+    background: none;
+    text-align: center;
+    color: rgb(148, 144, 144);
+    cursor: pointer;
+  }
+  
+  .login-btn{
+    margin: 0.5rem;
+    text-align: center;
+  }
+  
+  .label-status{
+    text-align: center;
+    margin: 0.2rem auto 0.2rem auto;
+  }
+  
 }

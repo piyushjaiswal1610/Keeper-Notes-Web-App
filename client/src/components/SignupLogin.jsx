@@ -112,8 +112,7 @@ function SignupLogin() {
                     <Button style={{
         backgroundColor: "#f5ba13",
         color: "white",
-        fontSize: "1rem",
-        marginTop: "1rem"
+        fontSize: "1rem"
     }} variant="contained" color="inherit" onClick={handleButtonClick}>{btnText}</Button>
                 </div>
                 <div className="login-btn"  hidden={isRedirectHidden}>
@@ -125,8 +124,7 @@ function SignupLogin() {
                     } style={{ textDecoration: 'none' }}><Button style={{
         backgroundColor: "#f5ba13",
         color: "white",
-        fontSize: "1rem",
-        marginTop: "1rem"
+        fontSize: "1rem"
     }} variant="contained" color="inherit" className="custom-btn-style">View Notes </Button> </Link>
                 </div>
             </div>

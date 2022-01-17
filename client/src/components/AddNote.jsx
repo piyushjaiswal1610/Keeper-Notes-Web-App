@@ -43,7 +43,7 @@ function AddNote(props){
     <Fab className="add-note-button"  style={{
         backgroundColor: "#f5ba13",
         width: "3rem",
-        height: "2rem",
+        height: "3rem",
         fontSize: "0.5rem",
         float: "right"
     }} onClick={
