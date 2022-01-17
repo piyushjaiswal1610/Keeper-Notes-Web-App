@@ -9,8 +9,8 @@ function Note(props){
         <button className="delete-note-btn" onClick={() => {
         props.deleteNote(props.id)
         }}><DeleteIcon style={{
-        height: "5rem",
-        width: "5rem"
+        height: "2rem",
+        width: "2rem"
         }}/></button>
         </div>
     );

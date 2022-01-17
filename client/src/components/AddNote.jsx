@@ -42,9 +42,9 @@ function AddNote(props){
     <Zoom in={zoomAnimation}>
     <Fab className="add-note-button"  style={{
         backgroundColor: "#f5ba13",
-        width: "8rem",
-        height: "8rem",
-        fontSize: "1.5rem",
+        width: "2rem",
+        height: "2rem",
+        fontSize: "0.5rem",
         float: "right",
         position: "relative",
         bottom: "8rem"
