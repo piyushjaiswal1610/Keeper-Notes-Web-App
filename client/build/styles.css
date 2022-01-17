@@ -288,6 +288,7 @@ body {
     background-color: white;
     color: #f5ba13;
     border-style: hidden;
+    float: right;  
   }
   
   .btnText{
@@ -306,7 +307,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     position: relative;
-    bottom: 0.1rem;
+    bottom: 0.15rem;
     right: 0rem;
   }
   

@@ -10,7 +10,8 @@ function Note(props){
         props.deleteNote(props.id)
         }}><DeleteIcon style={{
         height: "2rem",
-        width: "2rem"
+        width: "2rem",
+        margin: "0rem"
         }}/></button>
         </div>
     );
