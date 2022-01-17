@@ -288,7 +288,6 @@ body {
     background-color: white;
     color: #f5ba13;
     border-style: hidden;
-    float: right;  
   }
   
   .btnText{
@@ -307,8 +306,8 @@ body {
     font-weight: bold;
     cursor: pointer;
     position: relative;
-    bottom: 1.5rem;
-    right: 0.2rem;
+    bottom: 0.1rem;
+    right: 0rem;
   }
   
   .login-signup-box{
