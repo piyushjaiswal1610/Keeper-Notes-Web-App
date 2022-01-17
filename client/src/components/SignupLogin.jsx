@@ -103,16 +103,17 @@ function SignupLogin() {
             </div>
             <div className="login-signup-box">
                 <div className="inputArea">
-                    <input placeholder="Username" className="title-sl-input" value={username} onChange={handleUsernameChange}></input>
-                    <input type="password" placeholder="Password" className="title-sl-input" value={password} onChange={handlePasswordChange}></input>
+                    <input placeholder="Username" className="title-input login-input" value={username} onChange={handleUsernameChange}></input>
+                    <input type="password" placeholder="Password" className="title-input login-input" value={password} onChange={handlePasswordChange}></input>
                 </div>
                 <h5 className="activate-signup-btn" onClick={handleDynamicClick}>{labelStatus}</h5>
                 <br></br>
                 <div className="login-btn"  hidden={isButtonHidden}>
                     <Button style={{
         backgroundColor: "#f5ba13",
-        fontSize: "4rem",
-        marginTop: "2rem"
+        color: "white",
+        fontSize: "1rem",
+        marginTop: "1rem"
     }} variant="contained" color="inherit" onClick={handleButtonClick}>{btnText}</Button>
                 </div>
                 <div className="login-btn"  hidden={isRedirectHidden}>
@@ -123,8 +124,9 @@ function SignupLogin() {
                         }
                     } style={{ textDecoration: 'none' }}><Button style={{
         backgroundColor: "#f5ba13",
-        fontSize: "4rem",
-        marginTop: "2rem"
+        color: "white",
+        fontSize: "1rem",
+        marginTop: "1rem"
     }} variant="contained" color="inherit" className="custom-btn-style">View Notes </Button> </Link>
                 </div>
             </div>
